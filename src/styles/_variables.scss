@@ -1,0 +1,126 @@
+// Import Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&family=Caveat:wght@400;700&display=swap');
+
+// Font Families
+$font-primary: 'Mulish', sans-serif;
+$font-accent: 'Caveat', cursive;
+
+// Font Weights for Mulish
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+// Font Weights for Caveat
+$font-weight-accent-regular: 400;
+$font-weight-accent-bold: 700;
+
+// Font Sizes
+$font-size-xxs: 12px;
+$font-size-xs: 14px;
+$font-size-sm: 16px;
+$font-size-md: 18px;
+$font-size-lg: 24px;
+$font-size-xl: 32px;
+$font-size-xxl: 48px;
+$font-size-xxxl: 56px;
+
+// Line Heights
+$line-height-small: 1.2;
+$line-height-regular: 1.5;
+$line-height-large: 1.75;
+
+// SPACING & SIZING
+// Spacing Scale
+$space-xxxs: 4px;
+$space-xxs: 8px;
+$space-xs: 12px;
+$space-sm: 16px;
+$space-md: 24px;
+$space-lg: 32px;
+$space-xl: 48px;
+$space-xxl: 64px;
+$space-xxxl: 96px;
+
+// Container Sizes
+$container-width-sm: 640px;
+$container-width-md: 1008px;
+$container-width-lg: 1200px;
+
+// Border Radius
+$border-radius-sm: 4px;
+$border-radius-md: 8px;
+$border-radius-lg: 16px;
+
+// COLORS
+// Base Colors
+$color-white: #ffffff;
+$color-black: #0A0A0A;
+
+// Neutral Colors (Grayscale)
+$color-gray-700: #222222;
+$color-gray-600: #3b3b3b;
+$color-gray-500: #515151;
+$color-gray-400: #969696;
+$color-gray-300: #C5C5C5;
+$color-gray-200: #DDDDDD;
+$color-gray-100: #E8E8E8;
+$color-gray-50: #f2f2f2;
+$color-gray-25: #FAFAFA;
+
+// Text
+$link-inactive: $color-gray-400;
+$link-active: $color-gray-700;
+
+// Alerts and Feedback Colors
+$color-success: #28a745;
+$color-success-bg: #F4FFF7;
+$color-call-out: #DFA305;
+$color-call-out-bg: #FFFCF3;
+$color-error: #dc3545;
+$color-error-bg: #FFF5F5;
+$color-info: #227EE1;
+$color-info-bg: #ECF3FA;
+
+// BUTTON
+// Button Colors
+$button-primary-bg: $color-black;
+$button-primary-color: $color-white;
+
+$button-secondary-bg: $color-white;
+$button-secondary-color: $color-black;
+
+// Button Sizes
+$button-padding-sm: 8px 16px;
+$button-padding-md: 12px 24px;
+$button-padding-lg: 16px 32px;
+
+// Button Border Radius
+$button-border-radius: $border-radius-md;
+
+// SHADOW
+$shadow-sm: 0px 1px 3px rgba(0, 0, 0, 0.12);
+$shadow-md: 0px 4px 6px rgba(0, 0, 0, 0.16);
+$shadow-lg: 0px 10px 20px rgba(0, 0, 0, 0.2);
+
+// Z-INDEX
+$z-index-back: -1;
+$z-index-default: 1;
+$z-index-navbar: 5;
+$z-index-dropdown: 10;
+$z-index-modal: 100;
+$z-index-tooltip: 1000;
+
+// BREAKPOINTS
+$breakpoint-xs: 480px;
+$breakpoint-sm: 768px;
+$breakpoint-md: 1008px;
+$breakpoint-lg: 1200px;
+
+// Breakpoints
+$breakpoint-mobile: $breakpoint-sm;
+$breakpoint-desktop: $breakpoint-md;
+
+// Container Width (aligned to 4px grid)
+$container-width-desktop: 700px;

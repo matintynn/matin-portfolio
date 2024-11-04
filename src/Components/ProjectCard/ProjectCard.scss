@@ -1,0 +1,78 @@
+@import '../../styles/variables';
+
+// src/components/ProjectCard/ProjectCard.scss
+
+.project-card {
+    display: flex;
+    justify-content: center;
+    padding: $space-xxl 0;
+    text-align: center;
+
+    &__container {
+        max-width: 700px;
+        width: 100%;
+    }
+
+    &__thumbnail {
+        display: block;
+        overflow: hidden;
+        border-radius: 24px;
+        border: 1px solid $color-gray-100;
+        margin-bottom: $space-md; // Space between image and text
+
+        img {
+            width: 100%; // Ensure image is responsive
+            height: auto; // Maintain aspect ratio
+            transition: transform 0.6s ease-in-out;
+
+            &:hover {
+                transform: scale(1.02);
+            }
+        }
+    }
+
+    &__name {
+        font-size: $font-size-lg;
+        text-transform: uppercase;
+        margin: $space-md 0 $space-xxs;
+    }
+
+    &__description {
+        font-size: 1rem;
+        color: $color-gray-500;
+        line-height: $line-height-regular;
+        font-weight: $font-weight-light;
+    }
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .project-card__container {
+        max-width: 100%;
+        padding: 0 $space-md; // Add padding to prevent content from touching screen edges
+    }
+
+    .project-card__name {
+        font-size: $font-size-md; // Scale down font size
+    }
+
+    .project-card__description {
+        font-size: 0.9rem; // Slightly smaller for readability on smaller screens
+    }
+}
+
+@media (max-width: 480px) {
+    .project-card {
+        padding: $space-lg 0; // Reduce vertical padding on very small screens
+    }
+
+    .project-card__container {
+        max-width: 100%;
+        padding: 0 $space-sm; // Reduce padding on smaller screens
+
+    }
+
+    .project-card__thumbnail {
+        margin-bottom: $space-sm; // Less spacing for compact layout
+    }
+}

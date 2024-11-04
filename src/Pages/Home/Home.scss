@@ -1,0 +1,30 @@
+@import '../../styles/variables';
+
+.home {
+    .home-page__callout {
+        background-color: red;
+    }
+}
+
+.back-to-top {
+    width: 100%;
+    // background-color: #FAFAFA;
+    padding: $space-xxs 0 $space-xxs;
+
+    @media (max-width: 590px) {
+        padding: $space-sm;
+    }
+
+    &__container {
+        max-width: 700px;
+        margin: 0 auto;
+
+        img {
+            transition: transform 0.3s ease-in-out;
+
+            &:hover {
+                transform: scale(1.08);
+            }
+        }
+    }
+}

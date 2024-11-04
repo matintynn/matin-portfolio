@@ -1,0 +1,26 @@
+@import '../../styles/variables';
+
+.about__content-call-out {
+    margin: $space-sm 0;
+    /* Adjust to your $space-xl variable */
+    padding: $space-xs $space-md;
+    /* Adjust to your $space-xs $space-md variables */
+
+    img {
+        margin-bottom: $space-xxs;
+        /* Adjust to your $space-xxs variable */
+    }
+
+    p {
+        margin-bottom: 0 !important;
+        font-weight: $font-weight-medium;
+        line-height: $line-height-large;
+        color: $color-gray-700;
+
+        a {
+            color: $color-gray-700;
+            /* Adjust to your $color-gray-700 variable */
+            text-decoration: underline;
+        }
+    }
+}

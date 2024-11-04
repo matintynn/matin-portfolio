@@ -1,0 +1,106 @@
+@import '../../styles/variables';
+
+.hero {
+    height: 80vh;
+    background: url('../../assets/dust-pattern.svg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    @media (max-width: 590px) {
+        height: 70vh;
+        padding: $space-md;
+    }
+
+    &__container {
+        text-align: center;
+        margin: 0 auto;
+
+        h1.hero__text {
+            font-weight: $font-weight-light;
+            color: $color-gray-500;
+
+            span {
+                font-weight: $font-weight-semibold;
+                color: $color-gray-700;
+
+                @media (max-width: 764px) {
+                    display: block;
+                }
+            }
+
+            @media (max-width: 590px) {
+                font-size: 1.2rem;
+            }
+        }
+
+        .notes {
+            margin-top: $space-lg;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: $space-xxs;
+            justify-content: center;
+
+            @media (max-width: 764px) {
+                grid-template-columns: repeat(2, 1fr);
+                gap: $space-xs;
+            }
+
+            .note {
+                max-width: 190px;
+                width: 30vw;
+                margin: 0 auto;
+
+                @media (max-width: 560px) {
+                    width: 28vw; // Responsive width
+                }
+
+                img {
+                    width: 100%; // Ensure images scale with container
+                    height: auto;
+                }
+
+                // Rotate styles
+                &:nth-child(1) {
+                    transform: rotate(2deg);
+
+                    @media (max-width: 390px) {
+                        display: none;
+                    }
+                }
+
+                &:nth-child(2) {
+                    transform: rotate(-2deg);
+
+                    @media (max-width: 390px) {
+                        display: none;
+                    }
+                }
+
+                &:nth-child(3) {
+                    transform: rotate(1.5deg);
+
+                    @media (max-width: 390px) {
+                        width: 40vw;
+                    }
+                }
+
+                &:nth-child(4) {
+                    transform: rotate(-1.5deg);
+
+                    @media (max-width: 390px) {
+                        width: 40vw;
+                    }
+                }
+
+                // Hide notes on very small screens if crowded
+                // @media (max-width: 400px) {
+                //     &:nth-child(n+3) {
+                //         display: none;
+                //     }
+                // }
+            }
+        }
+    }
+}
