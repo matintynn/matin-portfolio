@@ -85,7 +85,7 @@
     }
 
     &__content {
-        margin: $space-md 0 $space-xl;
+        margin: $space-md 0 $space-lg;
 
         @media (max-width: 590px) {
             margin: $space-xs auto $space-md;
