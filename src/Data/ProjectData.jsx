@@ -20,7 +20,7 @@ const ProjectData = [
     {
         id: 3,
         thumbnail: project3,
-        name: 'Action Youth Dignity @YYC',
+        name: 'Action Youth Dignity @YYC (Coming Soon)',
         description: 'The project is currently in the wireframing and user testing phase, with the full design expected to be finalized soon.',
         link: '',
     },

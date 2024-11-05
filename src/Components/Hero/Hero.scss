@@ -16,12 +16,20 @@
     &__container {
         text-align: center;
         margin: 0 auto;
+        max-width: 732px;
+        text-align: left;
+
+        .hero__content-text {
+            margin-bottom: $space-lg;
+        }
 
         h1.hero__text {
-            font-weight: $font-weight-light;
-            color: $color-gray-500;
+            font-size: 36px;
+            font-weight: 100;
+            color: $color-gray-400;
+            margin-bottom: $space-xxxs;
 
-            span {
+            strong {
                 font-weight: $font-weight-semibold;
                 color: $color-gray-700;
 

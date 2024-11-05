@@ -14,9 +14,9 @@ const About = () => {
             <div className="about__container">
                 <div
                     className="about__card">
-                    <div className="about__img">
+                    {/* <div className="about__img">
                         <img src={mypic} alt="Matin's picture" />
-                    </div>
+                    </div> */}
                     <div className="about__card-content">
                         {/* <h3>"Design begins with empathy"</h3> */}
                         <p>Hi! I’m Matin, a Toronto-based digital product designer with experience crafting user-first designs. I believe that great design starts with a focus on users—because that’s where the magic happens!</p>
@@ -55,9 +55,9 @@ const About = () => {
                         <p>
                             My mission? To keep improving, even in small ways. From studying user behavior to trying unusual street food while traveling, I’m always ready for the next adventure!
                         </p>
-                        <Callout type="error" icon={foodIcon}>
+                        {/* <Callout type="error" icon={foodIcon}>
                             Want to talk pixels or pasta? Hit me up on <Link to="https://www.instagram.com/ma_tynn/" target="_blank" rel="noopener noreferrer">Instagram!</Link>
-                        </Callout>
+                        </Callout> */}
                     </div>
                 </div>
             </div>

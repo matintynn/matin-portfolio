@@ -26,6 +26,10 @@
         @media (max-width: 768px) {
             padding: 0 $space-sm;
         }
+
+        .logo {
+            color: $color-gray-700;
+        }
     }
 
     &__menu {

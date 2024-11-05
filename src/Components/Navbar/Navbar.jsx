@@ -24,7 +24,8 @@ const Navbar = () => {
                 {/* Logo */}
                 <div className="navbar__logo">
                     <NavLink to="/">
-                        <img src={logo} alt="" />
+                        <h3 className='logo'>Matin.</h3>
+                        {/* <img src={logo} alt="" /> */}
                     </NavLink>
                 </div>
                 {/* Navigation links */}

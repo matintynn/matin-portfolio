@@ -48,7 +48,8 @@
     }
 
     &__card-content {
-        padding: $space-md $space-xl 0 $space-xl;
+        // padding: $space-md $space-xl 0 $space-xl;
+        padding: $space-md $space-xl;
 
         @media (max-width: 768px) {
             padding: $space-sm;
