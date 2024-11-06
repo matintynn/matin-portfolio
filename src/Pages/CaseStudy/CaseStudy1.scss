@@ -57,13 +57,25 @@
             }
         }
 
+        ul.list-items {
+            li {
+                font-size: $font-size-sm;
+                font-weight: $font-weight-light;
+                // line-height: $line-height-large;
+                color: $color-gray-500;
+                margin-bottom: $space-xs;
+                margin-left: $space-sm;
+                list-style-type: square;
+            }
+        }
+
         // content texts
         .case-study__text {
             font-size: $font-size-sm;
             font-weight: $font-weight-light;
             line-height: $line-height-large;
             color: $color-gray-500;
-            margin-bottom: $space-xxs;
+            margin-bottom: $space-xs;
 
             a {
                 text-decoration: underline;
@@ -73,6 +85,10 @@
             span {
                 color: $color-gray-600;
                 font-weight: $font-weight-semibold;
+            }
+
+            span.subtext {
+                margin-bottom: 0;
             }
 
             @media (max-width: 490px) {

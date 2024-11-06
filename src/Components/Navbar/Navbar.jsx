@@ -16,9 +16,6 @@ const Navbar = () => {
 
     return (
         <motion.nav
-            initial={{ y: -100 }}
-            animate={{ y: 0 }}
-            transition={{ duration: 0.6, ease: "easeInOut", delay: 0.4 }}
             className="navbar">
             <div className="navbar__container">
                 {/* Logo */}

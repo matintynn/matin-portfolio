@@ -34,12 +34,13 @@
                 color: $color-gray-700;
 
                 @media (max-width: 764px) {
-                    display: block;
+                    // display: block;
                 }
             }
 
             @media (max-width: 590px) {
-                font-size: 1.2rem;
+                font-size: 1.4rem;
+                margin-bottom: $space-xs;
             }
         }
 

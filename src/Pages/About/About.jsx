@@ -21,7 +21,7 @@ const About = () => {
                         {/* <h3>"Design begins with empathy"</h3> */}
                         <p>Hi! I’m Matin, a Toronto-based digital product designer with experience crafting user-first designs. I believe that great design starts with a focus on users—because that’s where the magic happens!
                         </p>
-                        <Callout type="callout" icon={toolkit}>
+                        <Callout type="success" icon={toolkit}>
                             <strong>My toolkit:</strong> Figma, Adobe Creative Suite, No Code tools, HTML/CSS, JavaScript, Sass, React, along with component libraries.
                         </Callout>
                     </div>

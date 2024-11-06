@@ -31,11 +31,11 @@ const CaseStudy1 = () => {
             </div>
 
             {/* Case Study Content */}
-            <section className="case-study__content">
+            {/* <section className="case-study__content">
                 <Callout type="info" icon={infoIcon}>
-                    Don’t have much time? Click to read <Link to="/case-study1/summary1">this Summary</Link> in 3 Minutes!
+                    Don’t have much time? Click to read <Link to="/interactive-digital-signage-case-study/summary">this Summary</Link> in 3 Minutes!
                 </Callout>
-            </section>
+            </section> */}
             <section className="case-study__content">
                 <div className="case-study__content-container">
                     <h3 className="case-study__heading">Overview</h3>
