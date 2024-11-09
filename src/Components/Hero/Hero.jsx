@@ -55,7 +55,7 @@ const Hero = () => {
                 >
                     <Callout
                         type="callout">
-                        From first sketch to final click—experience the full process behind every design.<br /> <strong>Explore my case studies below!</strong>
+                        👉 From first sketch to final click—experience the full process behind every design.<br /> <strong>Explore my case studies below!</strong>
                     </Callout>
                 </motion.div>
             </div>

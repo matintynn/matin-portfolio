@@ -6,6 +6,7 @@ import handIcon from '../../assets/icons/hand-icon.svg'
 import eventIcon from '../../assets/icons/event-icon.svg'
 import foodIcon from '../../assets/icons/food-icon.svg'
 import Callout from '../../Components/Callout/Callout'
+import AboutData from '../../Data/AboutData';
 import { Link } from 'react-router-dom';
 
 const About = () => {
@@ -18,23 +19,22 @@ const About = () => {
                         <img src={mypic} alt="Matin's picture" />
                     </div> */}
                     <div className="about__card-content">
-                        {/* <h3>"Design begins with empathy"</h3> */}
-                        <p>Hi! I’m Matin, a Toronto-based digital product designer with experience crafting user-first designs. I believe that great design starts with a focus on users—because that’s where the magic happens!
-                        </p>
-                        <Callout type="success" icon={toolkit}>
-                            <strong>My toolkit:</strong> Figma, Adobe Creative Suite, No Code tools, HTML/CSS, JavaScript, Sass, React, along with component libraries.
+                        <h4>{AboutData[0].headline}</h4>
+                        <p>{AboutData[0].description}</p>
+                        <Callout type="success">
+                            <strong>🛠 My toolkit:</strong> {AboutData[0].tool}
                         </Callout>
                     </div>
                 </div>
                 <div
                     className="about__content-container">
                     <div className="about__content">
-                        <h4>My Design Philosophy</h4>
-                        <p>My design approach is simple: empathy first, aesthetics second. I’ve found that the impactful designs come from listening to users and understanding their needs. Whether it’s a website or an interactive directory, I rely on user research and feedback to guide my decisions. Every project is a learning opportunity, and I strive to incorporate those insights into my work.</p>
+                        <h4>{AboutData[1].headline}</h4>
+                        <p>{AboutData[1].description}</p>
                     </div>
                     <div className="about__content">
-                        <h4>About This Portfolio</h4>
-                        <p>Designed in Figma and brought to life with React, Sass, and a sprinkle of Framer Motion magic, this portfolio is my playground for creative ideas and smooth interactions. Got any suggestions to make it even sharper? I’d love to hear them.</p>
+                        <h4>{AboutData[2].headline}</h4>
+                        <p>Designed in Figma and brought to life with React, Sass, and a sprinkle of Framer Motion magic, <Link to="/behind-the-scene-tour" target="_blank" rel="noopener noreferrer">this portfolio</Link> is my playground for creative ideas and smooth interactions. Got any suggestions to make it even sharper? I’d love to hear them.</p>
                         {/* <Callout type="info" icon={handIcon}>
                             Interested in my portfolio? Want to take a 3mins <strong>behind-the-scenes</strong> tour? <br />Click <Link>here</Link> and let’s dive in!
                         </Callout> */}
@@ -46,12 +46,12 @@ const About = () => {
                         </p>
                     </div> */}
                     <div className="about__content">
-                        <h4>Always learning</h4>
+                        <h4>{AboutData[3].headline}</h4>
                         <p>
-                            I’ve learned that there’s always something new to discover—whether it’s refining my coding and design skills or learning to cook different cuisines. It’s all about trying new things, learning from mistakes, and sharing the results with others.
+                            {AboutData[3].description}
                         </p>
                         <p>
-                            My mission? To keep improving, even in small ways. From studying user behavior to trying unusual street food while traveling, I’m always ready for the next adventure!
+                            {AboutData[3].description2}
                         </p>
                         {/* <Callout type="error" icon={foodIcon}>
                             Want to talk pixels or pasta? Hit me up on <Link to="https://www.instagram.com/ma_tynn/" target="_blank" rel="noopener noreferrer">Instagram!</Link>

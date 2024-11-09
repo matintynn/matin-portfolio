@@ -11,6 +11,10 @@
     &__container {
         max-width: 700px;
         width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 
     &__thumbnail {
@@ -34,10 +38,11 @@
     &__name {
         font-size: $font-size-lg;
         text-transform: uppercase;
-        margin: $space-md 0 $space-xxs;
+        margin: 0 0 $space-xxs;
     }
 
     &__description {
+        max-width: 560px;
         font-size: 1rem;
         color: $color-gray-500;
         line-height: $line-height-regular;

@@ -1,0 +1,39 @@
+@import '../../styles/variables';
+
+.quote {
+    border: 1px solid $color-gray-200;
+    border-radius: $border-radius-md;
+    margin: $space-lg 0;
+    padding: $space-md;
+
+    &__container {
+        img {
+            margin-bottom: $space-md;
+        }
+
+        p {
+            margin-bottom: 0 !important;
+            font-weight: $font-weight-light;
+            line-height: $line-height-large;
+            color: $color-gray-500;
+            font-style: italic;
+
+            a {
+                color: $color-gray-700;
+                /* Adjust to your $color-gray-700 variable */
+                text-decoration: underline;
+            }
+        }
+
+        .divider {
+            height: 24px;
+            border-left: 1px solid $color-gray-400;
+            margin: $space-xxs 0;
+        }
+
+        p.person {
+            color: $color-gray-400;
+            font-style: normal;
+        }
+    }
+}

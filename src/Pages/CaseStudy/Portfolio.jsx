@@ -21,9 +21,9 @@ const Portfolio = () => {
             </div>
             {/* Case Study Content */}
             <section className="case-study__content">
-                <Callout type="callout">
+                {/* <Callout type="callout">
                     Like my portfolio? Feel free to clone the source code from my <Link to="https://github.com/matintynn/matin-portfolio.git" target="_blank" rel="noopener noreferrer">GitHub (main branch)</Link><br />You're welcome! Let’s keep the learning and sharing going!
-                </Callout>
+                </Callout> */}
             </section>
             <section className="case-study__content">
                 <div className="about__content-table-content case-study__content-container">
@@ -128,7 +128,7 @@ const Portfolio = () => {
                         Finally, I thoroughly tested the site across devices to ensure a seamless experience. This project taught me the importance of cohesive design, efficient workflows, and attention to detail for a professional, user-friendly portfolio.
                     </p>
                     <Callout type="callout">
-                        That's a glimpse into how I coded my portfolio! I hope this gives you insight into the thought and care that went into creating it. You can also check out the source code on <Link to="https://github.com/matintynn/matin-portfolio.git" target="_blank" rel="noopener noreferrer">GitHub (main branch)</Link> for a closer look.
+                        🔎 That's a glimpse into how I coded my portfolio! I hope this gives you insight into the thought and care that went into creating it. You can also check out the source code on <Link to="https://github.com/matintynn/matin-portfolio.git" target="_blank" rel="noopener noreferrer">GitHub (main branch)</Link> for a closer look.
                     </Callout>
                 </div>
                 <div id='next' className="case-study__content-container">
@@ -136,6 +136,8 @@ const Portfolio = () => {
                     <ul className='list-items'>
                         <li>Create dark-mode</li>
                         <li>Add Blog page</li>
+                        <li>Floating table of content</li>
+                        <li>The archives page</li>
                     </ul>
                 </div>
             </section>

@@ -32,6 +32,17 @@
         }
     }
 
+    h4 {
+        text-transform: uppercase;
+        font-size: $font-size-md;
+        font-weight: $font-weight-bold;
+        margin-bottom: $space-xxs;
+
+        @media (max-width: 490px) {
+            font-size: $font-size-sm;
+        }
+    }
+
     &__img {
         img {
             max-width: 150px; // Reduce image size from 190px to 150px for better balance
