@@ -36,16 +36,16 @@ const Hero = () => {
                     animate="animate"
                     className="hero__content-text">
                     <motion.h1 variants={noteVariants} className='hero__text'>
-                        Designing with a <strong>user-focus recipe:</strong>
+                        Start with in-depth <strong>research and insights,</strong>
                     </motion.h1>
                     <motion.h1 variants={noteVariants} className='hero__text'>
-                        start with a <strong>base of empathy,</strong>
+                        Infuse it with <strong>human-centered expertise,</strong>
                     </motion.h1>
                     <motion.h1 variants={noteVariants} className='hero__text'>
-                        sprinkle in <strong>human interactive savvy,</strong>
+                        Blend in an engaging <strong>interactive flavor,</strong>
                     </motion.h1>
                     <motion.h1 variants={noteVariants} className='hero__text'>
-                        and serve with <strong>interactive flavor!</strong>
+                        And finish with impact on <strong>the bottom line.</strong>
                     </motion.h1>
                 </motion.div>
                 <motion.div
