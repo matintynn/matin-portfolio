@@ -5,8 +5,10 @@
     border-radius: $border-radius-md;
     margin: $space-lg 0;
     padding: $space-md;
+    background-color: $color-white;
 
     &__container {
+
         img {
             margin-bottom: $space-md;
         }

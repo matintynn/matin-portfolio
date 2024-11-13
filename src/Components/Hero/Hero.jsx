@@ -1,7 +1,8 @@
 import React from 'react';
 import './Hero.scss';
-import { motion } from 'framer-motion';
+import { color, motion } from 'framer-motion';
 import Callout from '../Callout/Callout';
+import Quote from '../Quote/Quote'
 
 const heroVariants = {
     initial: {},
@@ -36,27 +37,21 @@ const Hero = () => {
                     animate="animate"
                     className="hero__content-text">
                     <motion.h1 variants={noteVariants} className='hero__text'>
-                        Start with in-depth <strong>research and insights,</strong>
-                    </motion.h1>
-                    <motion.h1 variants={noteVariants} className='hero__text'>
-                        Infuse it with <strong>human-centered expertise,</strong>
-                    </motion.h1>
-                    <motion.h1 variants={noteVariants} className='hero__text'>
-                        Blend in an engaging <strong>interactive flavor,</strong>
-                    </motion.h1>
-                    <motion.h1 variants={noteVariants} className='hero__text'>
-                        And finish with impact on <strong>the bottom line.</strong>
+                        UX/UI designer crafting interactive, <strong>research-driven</strong> digital experiences for measurable <strong>business impact.</strong>
                     </motion.h1>
                 </motion.div>
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.4, ease: "easeInOut", type: "spring", stiffness: 150, damping: 50, delay: 1.4 }}
+                    transition={{ duration: 0.4, ease: "easeInOut", type: "spring", stiffness: 150, damping: 50, delay: 0.8 }}
                 >
-                    <Callout
+                    {/* <Callout
                         type="callout">
-                        👉 From first sketch to final click—experience the full process behind every design.<br /> <strong>Explore my case studies below!</strong>
-                    </Callout>
+                        Experience the full design process and understand the strategy behind every design choice.<br /> <strong>Read more in my case studies below!</strong>
+                    </Callout> */}
+                    <Quote>
+                        Experience the full design process and understand the strategy behind every design choice.<br /> <strong>Read more in my case studies below!</strong>
+                    </Quote>
                 </motion.div>
             </div>
         </section>

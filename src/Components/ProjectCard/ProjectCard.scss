@@ -20,7 +20,7 @@
     &__thumbnail {
         display: block;
         overflow: hidden;
-        border-radius: 24px;
+        border-radius: $space-sm;
         border: 1px solid $color-gray-100;
         margin-bottom: $space-md; // Space between image and text
 

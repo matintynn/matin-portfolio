@@ -7,14 +7,14 @@ const ProjectData = [
         id: 1,
         thumbnail: project1,
         name: 'Interactive Digital Signage',
-        description: 'Conducted research, designed, and developed an intuitive touchscreen directory to assist visitors in easily locating tenants and essential information.',
+        description: 'Discover how a touchscreen directory enhances navigation and helps visitors find key information with ease.',
         link: '/interactive-digital-signage-case-study',
     },
     {
         id: 2,
         thumbnail: project2,
-        name: 'Cafe Hanoi Angers',
-        description: 'Branded, designed, and developed a website for Hanoi Café to boost brand recognition and attract more search traffic on Google Maps.',
+        name: 'More Than Just a Café Website',
+        description: 'Crafted through in-depth research to elevate Café Hanoi’s brand, creating a standout experience in a competitive market.',
         link: '/cafe-hanoi-angers-case-study',
     },
     {

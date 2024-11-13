@@ -24,7 +24,7 @@ const Footer = () => {
                     </p>
                 </div>
                 <div className="footer__credits">
-                    <p>Designed & coded with sour + spicy chips - ©2024 Matin Truong</p>
+                    <p>Designed & coded with spicy chips - ©2024 Matin Truong</p>
                 </div>
             </div>
         </footer>

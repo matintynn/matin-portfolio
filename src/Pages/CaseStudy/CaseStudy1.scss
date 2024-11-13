@@ -71,7 +71,7 @@
             li {
                 font-size: $font-size-sm;
                 font-weight: $font-weight-light;
-                // line-height: $line-height-large;
+                line-height: $line-height-large;
                 color: $color-gray-500;
                 margin-bottom: $space-xs;
                 margin-left: $space-sm;
@@ -160,6 +160,26 @@
         width: 100%;
     }
 
+    .case-study__background3 {
+        background-image: url("../../assets/case-study-1/wireframe-img.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        height: 700px; // adjust height as necessary
+        width: 100%;
+    }
+
+    .case-study__background4 {
+        background-image: url("../../assets/case-study-1/uidesign-img.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        height: 700px; // adjust height as necessary
+        width: 100%;
+    }
+
     .case-study__img-fullwidth {
         width: 100%;
         display: flex;
@@ -176,5 +196,14 @@
         @media (max-width: 768px) {
             padding: $space-xs $space-sm;
         }
+    }
+
+    .spacing-top-bottom {
+        margin: $space-lg 0;
+        height: $space-lg;
+    }
+
+    .spacing-top-bottom-sm {
+        height: $space-lg;
     }
 }

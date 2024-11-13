@@ -88,9 +88,10 @@
         border: 1px solid $color-gray-200;
         border-radius: $border-radius-md;
         padding: $space-md $space-xl;
+        margin: 0 0 $space-lg;
 
         @media (max-width: 590px) {
-            margin: 0 $space-sm;
+            margin: $space-md $space-sm;
             padding: $space-sm;
         }
     }

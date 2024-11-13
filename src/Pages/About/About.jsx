@@ -28,17 +28,11 @@ const About = () => {
                 </div>
                 <div
                     className="about__content-container">
-                    <div className="about__content">
+                    {/* <div className="about__content">
                         <h4>{AboutData[1].headline}</h4>
                         <p>{AboutData[1].description}</p>
-                    </div>
-                    <div className="about__content">
-                        <h4>{AboutData[2].headline}</h4>
-                        <p>Designed in Figma and brought to life with React, Sass, and a sprinkle of Framer Motion magic, <Link to="/behind-the-scene-tour" target="_blank" rel="noopener noreferrer">this portfolio</Link> is my playground for creative ideas and smooth interactions. Got any suggestions to make it even sharper? I’d love to hear them.</p>
-                        {/* <Callout type="info" icon={handIcon}>
-                            Interested in my portfolio? Want to take a 3mins <strong>behind-the-scenes</strong> tour? <br />Click <Link>here</Link> and let’s dive in!
-                        </Callout> */}
-                    </div>
+                    </div> */}
+
                     {/* <div className="about__content">
                         <h4>Community Engagement</h4>
                         <p>
@@ -48,7 +42,7 @@ const About = () => {
                     <div className="about__content">
                         <h4>{AboutData[3].headline}</h4>
                         <p>
-                            {AboutData[3].description}
+                            I'm on the hunt for new treasures to add to my UX toolkit! Currently exploring <a href='https://developers.google.com/analytics/learn/beginners' target='_Blank'>Google Analytics Academy</a>  and the diploma in  <a href='https://alison.com/course/diploma-in-strategic-management-revised' target='_Blank'>Strategic Management</a> from Alison—digging deeper into decoding user behavior and navigating business strategy.
                         </p>
                         <p>
                             {AboutData[3].description2}
@@ -56,6 +50,12 @@ const About = () => {
                         {/* <Callout type="error" icon={foodIcon}>
                             Want to talk pixels or pasta? Hit me up on <Link to="https://www.instagram.com/ma_tynn/" target="_blank" rel="noopener noreferrer">Instagram!</Link>
                         </Callout> */}
+                    </div>
+                </div>
+                <div className="about__content-container">
+                    <div className="about__content">
+                        <h4>{AboutData[2].headline}</h4>
+                        <p>Designed in Figma and brought to life with React, Sass, and a sprinkle of Framer Motion magic, <Link to="/behind-the-scene-tour" target="_blank" rel="noopener noreferrer">this portfolio</Link> is my playground for creative ideas and smooth interactions. Got any suggestions to make it even sharper? I’d love to hear them.</p>
                     </div>
                 </div>
             </div>

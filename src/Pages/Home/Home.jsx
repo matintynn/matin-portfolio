@@ -30,6 +30,9 @@ const Home = () => {
                     ))}
                 </div>
             </section>
+            <section className="space">
+
+            </section>
             <section className="container-md home-page__callout">
                 <Callout type="info">
                     👀 Interested in my portfolio? Want to take a <strong>behind-the-scenes</strong> tour? <br />Click <Link to="/behind-the-scene-tour" target="_blank" rel="noopener noreferrer">here</Link> and let’s dive in!

@@ -3,7 +3,7 @@ const AboutData = [
     {
         id: 1,
         headline: '🧳 ux treasure hunter',
-        description: 'Hello there! I’m Matin, a Toronto-based product designer – and yes, I’m a bit of a UX treasure hunter because it’s hard to stick to a straight line on the UX journey! Each project is a unique adventure, with fresh twists and turns. I start with one clue, then hunt for the next on the UX product island, following the path to that ultimate treasure: discovering what users truly want and need.',
+        description: 'Hello there! I’m Matin, a Toronto-based product designer – and yes, I’m a UX treasure hunter because it’s hard to stick to a straight line on the UX journey! Each project is a unique adventure, with fresh twists and turns. I start with one clue, then hunt for the next on the UX product island, following the path to that ultimate treasure: discovering what users truly want and need.',
         tool: 'Figma, Adobe Creative Suite, Canva, No Code tools, HTML/CSS, JavaScript, Sass, React, Git, along with component libraries.',
         link: ''
     },
@@ -21,9 +21,9 @@ const AboutData = [
     },
     {
         id: 4,
-        headline: '📚 Always learning',
-        description: 'I’ve learned that there’s always something new to discover—whether it’s refining my coding and design skills or learning to cook different cuisines. It’s all about trying new things, learning from mistakes, and sharing the results with others.',
-        description2: 'My mission? To keep improving, even in small ways. From studying user behavior to trying unusual street food while traveling, I’m always ready for the next adventure!',
+        headline: '📚 Mapping Out New Skills',
+        description: 'Always on the lookout for new treasures to stash in my UX toolkit! Right now, I’m mapping my way through Google Analytics Academy and the Diploma in Strategic Management from Alison—learning to decode user behavior and navigate the currents of business strategy.',
+        description2: 'Every discovery marks an X on my UX journey, guiding me to craft meaningful experiences—or simply uncovering the ‘why’ behind each new lesson.',
         link: ''
     },
     // Add more projects as needed in the future
