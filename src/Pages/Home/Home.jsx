@@ -35,7 +35,7 @@ const Home = () => {
             </section>
             <section className="container-md home-page__callout">
                 <Callout type="info">
-                    👀 Interested in my portfolio? Want to take a <strong>behind-the-scenes</strong> tour? <br />Click <Link to="/behind-the-scene-tour" target="_blank" rel="noopener noreferrer">here</Link> and let’s dive in!
+                    👀 Interested in my portfolio? Want to take a <strong>behind-the-scenes</strong> tour? <br />Click <Link to="/behind-the-scene-tour">here</Link> and let’s dive in!
                 </Callout>
             </section>
             <div className="back-to-top">

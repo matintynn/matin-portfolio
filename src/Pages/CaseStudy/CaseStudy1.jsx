@@ -1,31 +1,26 @@
 import React from 'react';
 import './CaseStudy1.scss';
-import handIcon from '../../assets/icons/hand-icon.svg'
-import infoIcon from '../../assets/icons/info-icon.svg'
-import casestudyBanner from '../../assets/case-study-1/cs1-banner.svg';
-import kioskImg from '../../assets/case-study-1/kiosk-img.svg';
-import sitemap from '../../assets/case-study-1/sitemap.svg';
-import userjourney from '../../assets/case-study-1/userjourney.svg';
-import wireframe from '../../assets/case-study-1/wireframe-img.svg';
-import persona from '../../assets/case-study-1/persona.svg';
+import casestudyBanner from '../../assets/case-study-1/cs1-banner.png';
+import kioskImg from '../../assets/case-study-1/kiosk-img.png';
+import sitemap from '../../assets/case-study-1/sitemap.png';
+import userjourney from '../../assets/case-study-1/image.png';
+import persona from '../../assets/case-study-1/persona.png';
 import sketch from '../../assets/case-study-1/sketch.png';
-import keyfeature from '../../assets/case-study-1/key-feature.svg';
-import accwire from '../../assets/case-study-1/acc-wire.svg';
-import feedback from '../../assets/case-study-1/feedback.svg';
-import userflow from '../../assets/case-study-1/userflow.svg';
-import moodboard from '../../assets/case-study-1/moodboard.svg';
-import iconImg from '../../assets/case-study-1/icon-image.svg';
-import colorScale from '../../assets/case-study-1/color-scale.svg';
+import keyfeature from '../../assets/case-study-1/key-feature.png';
+import accwire from '../../assets/case-study-1/acc-wire.png';
+import feedback from '../../assets/case-study-1/feedback.png';
+import userflow from '../../assets/case-study-1/userflow.png';
+import moodboard from '../../assets/case-study-1/moodboard.png';
+import iconImg from '../../assets/case-study-1/icon-image.png';
+import colorScale from '../../assets/case-study-1/color-scale.png';
 import backTop from '../../assets/icons/top-icon.svg';
-import prototype from '../../assets/case-study-1/prototype.svg';
-import buildingInfo from '../../assets/case-study-1/buildingInfo.svg';
-import search from '../../assets/case-study-1/search.svg';
-import tenantPage from '../../assets/case-study-1/tenant-page.svg';
-import localTransit from '../../assets/case-study-1/local-transit.svg';
-import accUi from '../../assets/case-study-1/acc-ui.svg';
+import buildingInfo from '../../assets/case-study-1/buildingInfo.png';
+import search from '../../assets/case-study-1/search.png';
+import tenantPage from '../../assets/case-study-1/tenant-page.png';
+import localTransit from '../../assets/case-study-1/local-transit.png';
+import accUi from '../../assets/case-study-1/acc-ui.png';
 import { Link } from 'react-router-dom';
 import Callout from '../../Components/Callout/Callout';
-import checkIcon from '../../assets/icons/info-icon.svg'
 import Quote from '../../Components/Quote/Quote';
 
 
@@ -34,8 +29,15 @@ const CaseStudy1 = () => {
         <div className="case-study">
             {/* Project Banner */}
             <div id='case1' className="case-study__banner">
-                <Link to="https://www.figma.com/proto/YmOHAp5JJJXeKmskarGMi9/320-Bay-Directory?node-id=4001-178&t=m55gA0Vpej4BabL2-1&scaling=scale-down" target="_blank" rel="noopener noreferrer">
-                    <img src={casestudyBanner} alt="Project Banner" className="case-study__banner-img" />
+                <Link
+                    to="https://www.figma.com/proto/YmOHAp5JJJXeKmskarGMi9/320-Bay-Directory?node-id=4001-178&t=m55gA0Vpej4BabL2-1&scaling=scale-down"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <img src={casestudyBanner}
+                        alt="Project Banner"
+                        className="case-study__banner-img"
+                        loading="lazy"
+                    />
                 </Link>
             </div>
 
@@ -78,6 +80,8 @@ const CaseStudy1 = () => {
                     <a href="#brand">4. Exploring Brand System</a>
                     <a href="#ui">5. UI Design</a>
                     <a href="#final">6. Final Product</a>
+                    <a href="#nextstep">7. Next Steps</a>
+                    <a href="#learning">8. Learnings & Take Aways</a>
                 </div>
                 <div className="spacing-top-bottom"></div>
                 <div id='discovery' className="case-study__content-container">
@@ -98,7 +102,7 @@ const CaseStudy1 = () => {
                         <Callout>
                             As part of this phase, I create user personas to represent key user groups and develop a user journey map, clarifying each step of their interaction with the directory.
                         </Callout>
-                        <img src={persona} alt="user persona" className="case-study__image" />
+                        <img src={persona} alt="user persona" className="case-study__image" loading="lazy" />
                     </div>
                     <div>
                         <p className="case-study__text">
@@ -107,7 +111,7 @@ const CaseStudy1 = () => {
                         <p className="case-study__text">
                             Through this research, I recognize the significance of providing intuitive, accessible design that minimizes reliance on reception staff, especially during peak hours. This not only enhances user independence but also aligns with the needs of diverse users. The focus on real-time wayfinding and ease of use became a cornerstone of the design strategy, ensuring visitors can navigate independently and efficiently.
                         </p>
-                        <img src={userjourney} alt="user journey" className="case-study__image" />
+                        <img src={userjourney} alt="user journey" className="case-study__image" loading="lazy" />
                     </div>
                 </div>
                 <div className="spacing-top-bottom"></div>
@@ -147,7 +151,7 @@ const CaseStudy1 = () => {
                         <p className="case-study__text">
                             I structure the directory's content with a clear sitemap, categorizing key features such as business listings, building history, property management info, and transit updates. This ensures that all information is logically organized and easy to navigate.
                         </p>
-                        <img src={sitemap} alt="site-map" className="case-study__image" />
+                        <img src={sitemap} alt="site-map" className="case-study__image" loading="lazy" />
                     </div>
                     <div>
                         <p className="case-study__text">
@@ -159,7 +163,7 @@ const CaseStudy1 = () => {
                         <p className="case-study__text">
                             At the same time, I make important information like building details and emergency contacts easy to access but secondary in prominence.
                         </p>
-                        <img src={userflow} alt="user flow" className="case-study__image" />
+                        <img src={userflow} alt="user flow" className="case-study__image" loading="lazy" />
                     </div>
                 </div>
                 <div className="spacing-top-bottom"></div>
@@ -175,7 +179,7 @@ const CaseStudy1 = () => {
                         <p className="case-study__text">
                             During the Early Design Exploration phase, I sketch out various UI concepts based on research, experimenting with layouts for the search bar and navigation elements. These sketches help me visualize the user experience and provide direction for the design.
                         </p>
-                        <img src={sketch} alt="sketches" className="case-study__image" />
+                        <img src={sketch} alt="sketches" className="case-study__image" loading="lazy" />
                     </div>
                     <div>
                         <p className="case-study__text">
@@ -184,7 +188,7 @@ const CaseStudy1 = () => {
                         <p className="case-study__text">
                             For directory search sptions, I include three search options—All Listings, by A-Z, and by Floor Space—to accommodate various user needs and enhance task efficiency. The Floor Space search supports users navigating company-tenanted floors, allowing them to find specific offices within shared spaces.
                         </p>
-                        <img src={keyfeature} alt="key feature" className="case-study__image" />
+                        <img src={keyfeature} alt="key feature" className="case-study__image" loading="lazy" />
                     </div>
                     <div>
                         <p className="case-study__text">
@@ -193,7 +197,7 @@ const CaseStudy1 = () => {
                         <p className="case-study__text">
                             Accessibility is integral to the wireframe design. I implement larger touch targets, a layout that shifts lower for wheelchair accessibility, and resizable buttons, ensuring all elements are visible and usable for users with diverse abilities.
                         </p>
-                        <img src={accwire} alt="accessibility wire" className="case-study__image" />
+                        <img src={accwire} alt="accessibility wire" className="case-study__image" loading="lazy" />
                     </div>
                     <div>
                         <p className="case-study__text">
@@ -202,7 +206,7 @@ const CaseStudy1 = () => {
                         <p className="case-study__text">
                             I consistently gather feedback from stakeholders and users to refine the layout and validate that it meets brand standards and user expectations. This input helps adjust the information hierarchy and search functions to better meet user needs.
                         </p>
-                        <img src={feedback} alt="feedback wire" className="case-study__image" />
+                        <img src={feedback} alt="feedback wire" className="case-study__image" loading="lazy" />
                     </div>
                     <Quote>
                         With a solid wireframe and feedback incorporated, I move into UI design, enhancing the layout with branding elements and an accessible, user-friendly interface.
@@ -226,7 +230,7 @@ const CaseStudy1 = () => {
                         <p className="case-study__text">
                             The color palette reflects luxury and elegance with a minimalist approach and sparing gold accents that enhance the building's historical charm.
                         </p>
-                        <img src={colorScale} alt="user persona" className="case-study__image" />
+                        <img src={colorScale} alt="user persona" className="case-study__image" loading="lazy" />
                     </div>
                     <div>
                         <p className="case-study__text">
@@ -235,7 +239,7 @@ const CaseStudy1 = () => {
                         <p className="case-study__text">
                             I select Font Awesome icons to give the directory a clean, modern look that aligns well with The Permanent's brand identity. For typography, I choose Lato to ensure brand cohesion and consistency, linking the digital directory fluidly with the building’s physical aesthetic.
                         </p>
-                        <img src={iconImg} alt="user persona" className="case-study__image" />
+                        <img src={iconImg} alt="user persona" className="case-study__image" loading="lazy" />
                     </div>
                     <div>
                         <p className="case-study__text">
@@ -244,7 +248,7 @@ const CaseStudy1 = () => {
                         <p className="case-study__text">
                             I create a moodboard to share my design vision for the interactive signage, blending a clean, modern style with elements that honor the building's historic charm and downtown Toronto's professional atmosphere. This approach helps the client see how fonts, colors, and brand assets will work together to bring the directory to life.
                         </p>
-                        <img src={moodboard} alt="moodboard image" className="case-study__image" />
+                        <img src={moodboard} alt="moodboard image" className="case-study__image" loading="lazy" />
                     </div>
                 </div>
                 <div className="spacing-top-bottom"></div>
@@ -264,7 +268,7 @@ const CaseStudy1 = () => {
                         <p className="case-study__text">
                             I design multiple search options—All Listings, A-Z Search, and Floor View—to quickly connect users to tenant information based on their preferences. To reduce decision time, I limit choices to essential options, following Hick’s Law. Placing the Directory Tenant Search Page as the primary view ensures easy access.
                         </p>
-                        <img src={search} alt="search feature image" className="case-study__image" />
+                        <img src={search} alt="search feature image" className="case-study__image" loading="lazy" />
                     </div>
                     <div>
                         <p className="case-study__text">
@@ -276,7 +280,7 @@ const CaseStudy1 = () => {
                         <Callout>
                             Animated vector paths guide users along the correct route, ensuring they can easily follow the path to their destination.
                         </Callout>
-                        <img src={tenantPage} alt="tenant page image" className="case-study__image" />
+                        <img src={tenantPage} alt="tenant page image" className="case-study__image" loading="lazy" />
                     </div>
                     <div>
                         <p className="case-study__text">
@@ -290,7 +294,7 @@ const CaseStudy1 = () => {
                         <p className="case-study__text">
                             The design incorporates building elements to reinforce the brand, ensuring a cohesive, professional, and luxury appearance. This approach enhances trustworthiness and creates a seamless, user-friendly experience for those accessing important building details.
                         </p>
-                        <img src={buildingInfo} alt="buildingInfo image" className="case-study__image" />
+                        <img src={buildingInfo} alt="buildingInfo image" className="case-study__image" loading="lazy" />
                     </div>
                     <div>
                         <p className="case-study__text">
@@ -304,7 +308,7 @@ const CaseStudy1 = () => {
                         <p className="case-study__text">
                             The Transit page provides real-time updates on TTC train arrivals, with a clean, quick-to-scan layout for route names and times. This design ensures visitors can easily navigate both the building and surrounding area while staying updated on transit.
                         </p>
-                        <img src={localTransit} alt="localTransit image" className="case-study__image" />
+                        <img src={localTransit} alt="localTransit image" className="case-study__image" loading="lazy" />
                     </div>
                     <div>
                         <p className="case-study__text">
@@ -315,7 +319,7 @@ const CaseStudy1 = () => {
                         <p className="case-study__text">
                             Based on stakeholder feedback during the wireframe stage, I refine the directory’s accessibility features to better support visitors with mobility challenges. In Accessibility Mode, the interface shifts downward to ensure key elements are within easy reach.
                         </p>
-                        <img src={accUi} alt="accessibility features image" className="case-study__image" />
+                        <img src={accUi} alt="accessibility features image" className="case-study__image" loading="lazy" />
                         <p className="case-study__text">
                             I also adjust design elements—resizing legend buttons, containers, and repositioning the map, especially in areas like the Amenities section—to improve usability for all visitors.
                         </p>
@@ -341,27 +345,53 @@ const CaseStudy1 = () => {
             <section className="case-study__content">
                 <div id='nextstep' className="case-study__content-container">
                     <h3 className="case-study__heading">
-                        Next steps
+                        Next Steps
                     </h3>
                     <p className="case-study__text">
                         To enhance the wayfinding system at The Permanent, several future features could improve functionality and user experience:
                     </p>
-                    <p className="case-study__text">
-                        <strong>Emergency Evacuation Plan:</strong> Integrate an interactive evacuation plan providing real-time guidance, clearly marked routes, and audio-visual alerts during emergencies.
-                    </p>
-                    <p className="case-study__text">
-                        <strong>Multi-Language Support:</strong> Offer multi-language options to increase accessibility for non-English speakers, allowing them to navigate easily.
-                    </p>
-                    <p className="case-study__text">
-                        <strong>Parking Availability:</strong> Add a section for real-time updates on nearby parking spaces and navigation to accessible entrances for improved visitor experience.
-                    </p>
-                    <p className="case-study__text">
-                        <strong>Interactive Map Features:</strong>  Introduce zoom controls and map rotation for a more dynamic experience, enabling users to explore the building layout in detail.
-                    </p>
+                    <div>
+                        <ul className='list-items'>
+                            <li>
+                                <strong>Emergency Evacuation Plan:</strong> Integrate an interactive evacuation plan providing real-time guidance, clearly marked routes, and audio-visual alerts during emergencies.
+                            </li>
+                            <li>
+                                <strong>Multi-Language Support:</strong> Offer multi-language options to increase accessibility for non-English speakers, allowing them to navigate easily.
+                            </li>
+                            <li>
+                                <strong>Parking Availability:</strong> Add a section for real-time updates on nearby parking spaces and navigation to accessible entrances for improved visitor experience.
+                            </li>
+                            <li>
+                                <strong>Interactive Map Features:</strong>  Introduce zoom controls and map rotation for a more dynamic experience, enabling users to explore the building layout in detail.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id='learning' className="case-study__content-container">
+                    <h3 className="case-study__heading">Learnings & Take Aways</h3>
+                    <div>
+                        <ul className='list-items'>
+                            <li>
+                                <strong>Learning from Feedback:</strong> Early user research and client feedback helped shape a design that addressed key needs, like tenant search and accessibility. Involving the client early saved time and helped avoid unnecessary revisions.
+                            </li>
+                            <li>
+                                <strong>Accessibility:</strong> Adding features like an accessibility button and making the interface wheelchair-friendly improved usability for a wider audience.
+                            </li>
+                            <li>
+                                <strong>Collaboration:</strong> Strong communication with the client and development team ensured alignment and smooth implementation of design.
+                            </li>
+                            <li>
+                                <strong>Balancing Simplicity & Functionality:</strong> Presenting detailed information in a clear, simple manner was key to maintaining user experience without overwhelming them.
+                            </li>
+                            <li>
+                                <strong>Impact of Design:</strong> The design significantly improved navigation, increasing efficiency by 80%, and met both user needs and business goals, like integrating leasing and security information.
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </section>
             <section className="case-study__content">
-                <Callout type="callout"><p>Get more time? Check out <Link to="/case-study2">Cafe Hanoi Anger case study</Link></p>
+                <Callout type="callout"><p>Get more time? Check out <Link to="/cafe-hanoi-angers-case-study">Cafe Hanoi Anger case study</Link></p>
                 </Callout>
             </section>
             <section className="case-study__content">

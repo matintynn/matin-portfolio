@@ -2,23 +2,20 @@ import React from 'react'
 import './CaseStudy1.scss';
 import { Link } from 'react-router-dom';
 import Callout from '../../Components/Callout/Callout';
-import handIcon from '../../assets/icons/hand-icon.svg'
-import infoIcon from '../../assets/icons/info-icon.svg'
-import checkIcon from '../../assets/icons/info-icon.svg'
-import casestudyBanner from '../../assets/case-study-2/cs2-banner.svg';
-import trend from '../../assets/case-study-2/industry-trend.svg';
-import swot from '../../assets/case-study-2/swot.svg';
-import cta from '../../assets/case-study-2/cta-img.svg';
-import sitemap from '../../assets/case-study-2/hanoi-sitemap.svg';
-import process from '../../assets/case-study-2/process-bar.svg';
-import space from '../../assets/case-study-2/space-img.svg';
-import map from '../../assets/case-study-2/map.svg';
-import lang from '../../assets/case-study-2/lang.svg';
-import websiteAnalysis from '../../assets/case-study-2/website-analysis.svg';
-import menu from '../../assets/case-study-2/menu.svg';
-import wireframe from '../../assets/case-study-2/wireframe.svg';
-import moodboard from '../../assets/case-study-2/moodboard.svg';
-import socialProof from '../../assets/case-study-2/social-proof.svg';
+import casestudyBanner from '../../assets/case-study-2/cs2-banner.png';
+import trend from '../../assets/case-study-2/industry-trend.png';
+import swot from '../../assets/case-study-2/swot.png';
+import cta from '../../assets/case-study-2/cta-img.png';
+import sitemap from '../../assets/case-study-2/hanoi-sitemap.png';
+import process from '../../assets/case-study-2/process-bar.png';
+import space from '../../assets/case-study-2/space-img.png';
+import map from '../../assets/case-study-2/map.png';
+import lang from '../../assets/case-study-2/lang.png';
+import websiteAnalysis from '../../assets/case-study-2/website-analysis.png';
+import menu from '../../assets/case-study-2/menu.png';
+import wireframe from '../../assets/case-study-2/wireframe.png';
+import moodboard from '../../assets/case-study-2/moodboard.png';
+import socialProof from '../../assets/case-study-2/social-proof.png';
 import backTop from '../../assets/icons/top-icon.svg';
 import Quote from '../../Components/Quote/Quote';
 
@@ -29,7 +26,7 @@ const CaseStudy2 = () => {
             {/* Project Banner */}
             <div id='case1' className="case-study__banner">
                 <a href="https://cafehanoi.framer.website/" target="_blank" rel="noopener noreferrer">
-                    <img src={casestudyBanner} alt="Project Banner" className="case-study__banner-img" />
+                    <img src={casestudyBanner} alt="Project Banner" className="case-study__banner-img" loading="lazy" />
                 </a>
             </div>
             {/* Case Study Content */}
@@ -95,7 +92,7 @@ const CaseStudy2 = () => {
                             <li>Illustrations and Custom Icons: Unique illustrations and icons add personality, making sites feel playful and distinctive.</li>
                             <li>Fun, Cute Visual Elements: Small animations and cheerful icons create a joyful, approachable brand image, appealing especially to younger audiences.</li>
                         </ul>
-                        <img src={trend} alt="trend analysis img" className="case-study__image" />
+                        <img src={trend} alt="trend analysis img" className="case-study__image" loading="lazy" />
                         <p className="case-study__text">
                             <span className='subtext'>Stakeholders Interview</span>
                         </p>
@@ -108,7 +105,7 @@ const CaseStudy2 = () => {
                         <p className="case-study__text">
                             To understand Café Hà Nội's unique position and growth potential, I conduct a SWOT analysis, identifying strengths, challenges, and opportunities for deeper customer engagement.
                         </p>
-                        <img src={swot} alt="moodboard" className="case-study__image" />
+                        <img src={swot} alt="moodboard" className="case-study__image" loading="lazy" />
                         <p className="case-study__text">
                             <span className='subtext'>Competitive analysis</span>
                         </p>
@@ -124,7 +121,7 @@ const CaseStudy2 = () => {
                             <li><strong>Map & Location:</strong> Tea Wan display their location with an interactive map, helping users easily find the café.</li>
                             <li><strong>About Us Page:</strong> Each website includes an "About Us" page/section, sharing their story and mission, which adds personality to the brands.</li>
                         </ul>
-                        <img src={websiteAnalysis} alt="moodboard" className="case-study__image" />
+                        <img src={websiteAnalysis} alt="moodboard" className="case-study__image" loading="lazy" />
                         <p className="case-study__text">
                             <span className='subtext'>Research Thoughts</span>
                         </p>
@@ -152,18 +149,18 @@ const CaseStudy2 = () => {
                     <p className="case-study__text">
                         I suggest a straightforward <strong>Information Architecture (IA)</strong> structure that focuses on clarity and simplicity:
                     </p>
-                    <img src={sitemap} alt="sitemap" className="case-study__image" />
+                    <img src={sitemap} alt="sitemap" className="case-study__image" loading="lazy" />
                     <p className="case-study__text">
                         <strong>Creating wireframes</strong> enables early design decisions by translating my research insights into a clear layout of navigation and key elements.
                     </p>
                     <Callout type="success">
                         📌 By tying the wireframe directly to research insights, I want to ensure that the layout not only meets user expectations but also aligns with business goals and brand values.
                     </Callout>
-                    <img src={wireframe} alt="wireframe" className="case-study__image" />
+                    <img src={wireframe} alt="wireframe" className="case-study__image" loading="lazy" />
                     <p className="case-study__text">
                         In addition, I create a style moodboard to communicate my design vision and direction to stakeholders. The style tile includes key visual elements such as color schemes, typography, and imagery styles, ensuring alignment with the project’s goals and the brand’s identity.
                     </p>
-                    <img src={moodboard} alt="style tiles" className="case-study__image" />
+                    <img src={moodboard} alt="style tiles" className="case-study__image" loading="lazy" />
                     <Quote>
                         ✍🏻 I assure stakeholders that this moodboard serves as a flexible guide, one that I adapt throughout the UI design process to best resonate with users and align with the brand’s evolving needs.
                     </Quote>
@@ -181,7 +178,7 @@ const CaseStudy2 = () => {
                         <p className="case-study__text">
                             The Hero section CTA emphasizes authenticity, appealing to local customers who value genuine cultural experiences. By highlighting Café Hà Nội’s authentic Vietnamese offerings, it sets the brand apart from other cafes and bubble tea shops in the area, creating trust and emotional resonance through alignment with community values.
                         </p>
-                        <img src={cta} alt="cta image" className="case-study__image" />
+                        <img src={cta} alt="cta image" className="case-study__image" loading="lazy" />
                     </div>
                     <div>
                         <p className="case-study__text">
@@ -193,7 +190,7 @@ const CaseStudy2 = () => {
                         <p className="case-study__text">
                             This design appeals to key user segments such as digital nomads and young professionals, who seek a versatile, comfortable environment that supports both work and socializing. Highlighting this aspect resonates with their needs and can strongly influence their decision to visit.
                         </p>
-                        <img src={space} alt="space image" className="case-study__image" />
+                        <img src={space} alt="space image" className="case-study__image" loading="lazy" />
                     </div>
                     <div>
                         <p className="case-study__text">
@@ -202,7 +199,7 @@ const CaseStudy2 = () => {
                         <p className="case-study__text">
                             I include a simple three-step progress bar in the ordering process to streamline the user experience. This visual cue clarifies each step, making the process feel more manageable and reducing cognitive load.
                         </p>
-                        <img src={process} alt="process image" className="case-study__image" />
+                        <img src={process} alt="process image" className="case-study__image" loading="lazy" />
                     </div>
                     <div>
                         <p className="case-study__text">
@@ -217,7 +214,7 @@ const CaseStudy2 = () => {
                         <Callout type="success">
                             👉 Click <a href="/full-menu.pdf" target="_blank" rel="noopener noreferrer">here</a> to see the full menu design!
                         </Callout>
-                        <img src={menu} alt="menu image" className="case-study__image" />
+                        <img src={menu} alt="menu image" className="case-study__image" loading="lazy" />
                     </div>
                     <div>
                         <p className="case-study__text">
@@ -226,7 +223,7 @@ const CaseStudy2 = () => {
                         <p className="case-study__text">
                             The Google Map integration saves users time by allowing them to quickly find the store location without having to open a separate app or type into Google. This eliminates distractions that could interfere with their goal—finding the store.
                         </p>
-                        <img src={map} alt="google map image" className="case-study__image" />
+                        <img src={map} alt="google map image" className="case-study__image" loading="lazy" />
                     </div>
                     <div>
                         <p className="case-study__text">
@@ -245,7 +242,7 @@ const CaseStudy2 = () => {
                 </div>
             </section>
             <div className="case-study__img-fullwidth">
-                <img src={socialProof} alt="Social proof image" />
+                <img src={socialProof} alt="Social proof image" loading="lazy" />
             </div>
             <section className="case-study__content">
                 <div id='feedback' className="case-study__content-container">
@@ -263,7 +260,7 @@ const CaseStudy2 = () => {
                     <p className="case-study__text">
                         I also suggest offering both English and French versions of the website and menu to better target tourists, as most local competitors do not provide this bilingual option. This approach enhances accessibility and inclusivity, expanding Café Hanoi’s reach to a broader audience and setting it apart from the competition. The result is an authentic, modern website that stays true to Café Hanoi’s brand.
                     </p>
-                    <img src={lang} alt="lang image" className="case-study__image" />
+                    <img src={lang} alt="lang image" className="case-study__image" loading="lazy" />
                 </div>
                 <div className="spacing-top-bottom"></div>
                 <div id='feedback' className="case-study__content-container">
@@ -273,7 +270,7 @@ const CaseStudy2 = () => {
                     </p>
                     <Callout type="success">
                         <p>Increased Google page visits by <strong>15%</strong> and foot traffic by <strong>30%</strong></p>
-                        <p>Resulting in average  <strong>60%</strong> increase in popular drink sales.</p>
+                        <p>Resulting in an average  <strong>60%</strong> increase in popular drink sales.</p>
                         <p>Noticed an increase in young professionals visiting the shop.</p>
                     </Callout>
                     <Quote person="Founder of Cafe Hanoi Angers">
@@ -306,7 +303,7 @@ const CaseStudy2 = () => {
             </section>
             <section className="case-study__content">
                 <Callout type="callout">
-                    Get more time? Check out my <Link to="/case-study1">Digital Signage Case study</Link>
+                    Get more time? Check out my <Link to="/interactive-digital-signage-case-study">Digital Signage Case study</Link>
                 </Callout>
             </section>
             <section className="case-study__content">

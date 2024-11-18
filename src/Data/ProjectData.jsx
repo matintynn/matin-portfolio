@@ -1,5 +1,5 @@
 import project1 from '../assets/project-thumbnails/project1.svg'
-import project2 from '../assets/project-thumbnails/project2.svg'
+import project2 from '../assets/project-thumbnails/project2.png'
 import project3 from '../assets/project-thumbnails/project3.svg'
 
 const ProjectData = [
