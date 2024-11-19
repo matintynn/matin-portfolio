@@ -1,6 +1,7 @@
 import './Footer.scss';
 import emailIcon from '../../assets/icons/email-icon.svg'
 import igIcon from '../../assets/icons/ig-icon.svg'
+import driIcon from '../../assets/icons/dribbble-icon.svg'
 
 const Footer = () => {
     return (
@@ -8,6 +9,14 @@ const Footer = () => {
             <div className="footer__container">
                 <div className="footer__contact">
                     <p className='footer__headline'>Let’s Connect!</p>
+                    <p className="footer__info">
+                        <img src={driIcon} alt="Instagram Icon" />
+                        <a href="https://dribbble.com/matintruong42" target="_blank">My Dribbble</a>
+                    </p>
+                    <p className="footer__info">
+                        <img src={igIcon} alt="Instagram Icon" />
+                        <a href="https://www.instagram.com/ma_tynn/" target="_blank">ma_tynn</a>
+                    </p>
                     <p className="footer__info">
                         <img src={emailIcon} alt="email-icon" />
                         <a
@@ -17,10 +26,6 @@ const Footer = () => {
                         >
                             matintyson.design@gmail.com
                         </a>
-                    </p>
-                    <p className="footer__info">
-                        <img src={igIcon} alt="Instagram Icon" />
-                        <a href="https://www.instagram.com/ma_tynn/" target="_blank">ma_tynn</a>
                     </p>
                 </div>
                 <div className="footer__credits">
