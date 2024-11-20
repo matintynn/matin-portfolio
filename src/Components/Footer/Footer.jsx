@@ -11,7 +11,7 @@ const Footer = () => {
                     <p className='footer__headline'>Let’s Connect!</p>
                     <p className="footer__info">
                         <img src={driIcon} alt="Instagram Icon" />
-                        <a href="https://dribbble.com/matintruong42" target="_blank">My Dribbble</a>
+                        <a href="https://dribbble.com/matintruong42" target="_blank">my dribbble</a>
                     </p>
                     <p className="footer__info">
                         <img src={igIcon} alt="Instagram Icon" />
